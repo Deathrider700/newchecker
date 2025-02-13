@@ -1,0 +1,562 @@
+{
+    "1490444757": {
+        "credits": 999301,
+        "gate_preference": "stripe4",
+        "stats": {
+            "approved": 1,
+            "declined": 787,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "a77b306e05"
+    },
+    "5903607923": {
+        "credits": 99999999999478,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 31,
+            "declined": 460,
+            "ccn": 2,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "1605a3cafc"
+    },
+    "6922884735": {
+        "credits": 1000015,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 1,
+            "declined": 80,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "97f0e8e8d2"
+    },
+    "-1002265228255": {
+        "credits": 9999999999999999998,
+        "gate_preference": "stripe4",
+        "stats": {
+            "approved": 0,
+            "declined": 1,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "cf0b1a26bd"
+    },
+    "5274886289": {
+        "credits": 999997,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 1,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "5599aa1c59"
+    },
+    "6921669928": {
+        "credits": 91,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 9,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "e0371a73e7"
+    },
+    "6495366932": {
+        "credits": 98,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 2,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "e95131fa71"
+    },
+    "7898141692": {
+        "credits": 92,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 7,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "f774a552ec"
+    },
+    "7280215701": {
+        "credits": 0,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 5,
+            "declined": 85,
+            "ccn": 1,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "99d402d2ea"
+    },
+    "7694085401": {
+        "credits": 98,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "ac749174f9"
+    },
+    "5581804593": {
+        "credits": 99,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 1,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "c01a6fb3e2"
+    },
+    "-1002483331353": {
+        "credits": 82,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 3,
+            "declined": 11,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "7aeedccd7e"
+    },
+    "8180816837": {
+        "credits": 100,
+        "gate_preference": "stripe2",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "1840eb451a"
+    },
+    "7485820863": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "32db0cbf8c"
+    },
+    "6510102381": {
+        "credits": 1001092,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 5,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "78b13d50e0"
+    },
+    "7104509845": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "5232ec779a"
+    },
+    "7750660940": {
+        "credits": 2100,
+        "gate_preference": "stripe4",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "df19afa514"
+    },
+    "6029753077": {
+        "credits": 99,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 1,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "d814448b96"
+    },
+    "6755426755": {
+        "credits": 150,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "244c8c61b4"
+    },
+    "6503042194": {
+        "credits": 99,
+        "gate_preference": "stripe2",
+        "stats": {
+            "approved": 0,
+            "declined": 1,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "570cd793ef"
+    },
+    "6188617492": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "c58eaf3270"
+    },
+    "7507173935": {
+        "credits": 99,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "a05031a93f"
+    },
+    "6120727374": {
+        "credits": 97,
+        "gate_preference": "stripe4",
+        "stats": {
+            "approved": 0,
+            "declined": 2,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "056eff18c8"
+    },
+    "8004931028": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "3349b3e8d2"
+    },
+    "6885880442": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "401d724f7b"
+    },
+    "5507560276": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "6f3530d52e"
+    },
+    "5110123277": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "0e342b3d1a"
+    },
+    "1042941175": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "af2534d7bf"
+    },
+    "6237789849": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "177c701fe5"
+    },
+    "1276535073": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "137638def3"
+    },
+    "5197673717": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "b2b85ecba6"
+    },
+    "5673931726": {
+        "credits": 99,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 1,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "f2734c1368"
+    },
+    "6915266439": {
+        "credits": 92,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 2,
+            "ccn": 1,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "e856be1ca2"
+    },
+    "7069274296": {
+        "credits": 1000099,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "22f6387e6f"
+    },
+    "6070403119": {
+        "credits": 88,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 11,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referrals": []
+    },
+    "5005215656": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referrals": []
+    },
+    "6489394081": {
+        "credits": 97,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referrals": []
+    },
+    "7252569401": {
+        "credits": 18,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 2,
+            "declined": 79,
+            "ccn": 1,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referrals": [],
+        "referral_code": "e865c00ee3"
+    },
+    "7749807563": {
+        "credits": 99,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 1,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "f3a78eab08"
+    },
+    "6355601354": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "9e2b274c5b"
+    },
+    "901746855": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "3122c8e1bc"
+    },
+    "7442784385": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "b791f714a3"
+    },
+    "7248259930": {
+        "credits": 100,
+        "gate_preference": "auth",
+        "stats": {
+            "approved": 0,
+            "declined": 0,
+            "ccn": 0,
+            "cvv": 0
+        },
+        "is_premium": false,
+        "registered": true,
+        "referral_code": "7dd64238ff"
+    }
+}

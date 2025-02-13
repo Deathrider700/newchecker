@@ -1,0 +1,14 @@
+[2025-02-11 08:10:03] Admin ID: 5903607923, Command: add, Args: /add 6922884735\n[2025-02-11 16:27:22] Admin ID: 5903607923, Command: listadmins
+[2025-02-11 17:07:27] Admin ID: 5903607923, Command: add, Args: /add 6922884735
+[2025-02-11 17:13:15] Admin ID: 6922884735, Command: setconfig, Args: /setconfig
+[2025-02-11 17:13:45] Admin ID: 6922884735, Command: setconfig, Args: /setconfig
+[2025-02-11 17:14:04] Admin ID: 6922884735, Command: getconfig
+[2025-02-11 17:17:34] Admin ID: 6922884735, Command: listadmins
+[2025-02-11 17:17:35] Admin ID: 6922884735, Command: botstats
+[2025-02-11 17:17:35] Admin ID: 6922884735, Command: add, Args: /add
+[2025-02-11 17:24:04] Admin ID: 6922884735, Command: botstats
+[2025-02-11 17:25:32] Admin ID: 6922884735, Command: broadcast, Args: /broadcast send feedback sar😐
+[2025-02-11 17:33:43] Admin ID: 5903607923, Command: getlog, Args: /getlog
+[2025-02-11 17:34:00] Admin ID: 5903607923, Command: getconfig
+[2025-02-13 19:50:16] Admin ID: 5903607923, Command: broadcast, Args: /broadcast anyone can give vps method take bot plan
+[2025-02-13 19:52:50] Admin ID: 5903607923, Command: broadcast, Args: /broadcast Use feedback command to communicate through bot for vps

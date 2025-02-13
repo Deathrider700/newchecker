@@ -1,0 +1,136 @@
+#--- START OF FILE utils.py ---
+
+#utils.py - Utility functions used across the bot
+
+import string
+import random
+from faker import Faker
+import re
+import keyword
+
+def get_string_between(text, start_word, end_word):
+    """
+    Extracts the string between two specified words in a given text.
+    Returns an empty string if start_word or end_word is not found, or if there's nothing between them.
+    """
+    start_index = text.find(start_word)
+    if start_index == -1:
+        return ''
+    start_index += len(start_word)
+    end_index = text.find(end_word, start_index)
+    if end_index == -1:
+        return ''
+    return text[start_index:end_index]
+
+def generate_random_alphabet_string(length):
+    """
+    Generates a random string of lowercase alphabet characters of the specified length.
+    """
+    alphabet_string = string.ascii_lowercase
+    random_string = ''.join(random.choice(alphabet_string) for _ in range(length))
+    return random_string
+
+def generate_address():
+    """
+    Generates a random US address string using Faker.
+    """
+    faker = Faker()
+    return faker.address()
+
+def generate_phone_number():
+    """
+    Generates a random US phone number format.
+    """
+    area_code = str(random.randint(200, 999))
+    exchange_code = str(random.randint(200, 999))
+    subscriber_number = str(random.randint(1000, 9999))
+    return f"+1-{area_code}-{exchange_code}-{subscriber_number}"
+
+def generate_random_email(domain="gmail.com"):
+    """
+    Generates a random email address using Faker and specified domain.
+    Defaults to gmail.com if domain is not provided.
+    """
+    faker = Faker()
+    return str(faker.email()).replace('example', domain.split('@')[-1])
+
+def generate_username():
+    """
+    Generates a random username using Faker.
+    """
+    faker = Faker()
+    return faker.user_name()
+
+def generate_password():
+    """
+    Generates a random password using Faker.
+    """
+    faker = Faker()
+    return faker.password()
+
+def get_card_type_from_bin(bin_number):
+    """
+    Determines card type based on the first few digits of the BIN.
+    This is a more detailed version.
+    """
+    bin_prefix = str(bin_number)[:1] if isinstance(bin_number, (int, str)) else ""
+
+    if bin_prefix.startswith('4'):
+        return "Visa"
+    elif bin_prefix.startswith('5'):
+        return "Mastercard"
+    elif bin_prefix.startswith('3'): # Amex or Diners Club, needs more digits for differentiation
+        if str(bin_number).startswith(('34', '37')):
+            return "Amex"
+        elif str(bin_number).startswith(('30', '36', '38', '39')):
+            return "Diners Club"
+        else:
+            return "Unknown" # Could be other '3' prefixed cards
+    elif bin_prefix.startswith('6'):
+        if str(bin_number).startswith('6011'):
+            return "Discover"
+        elif str(bin_number).startswith(('62', '63', '64', '65')):
+            return "China UnionPay"
+        else:
+            return "Discover" # Default to Discover for 6 prefix
+    elif bin_prefix.startswith('7'): # Placeholder for other types starting with 7
+        return "Unknown"
+    else:
+        return "Unknown"
+
+def extract_ccs_from_line(line):
+    """
+    Extracts credit card details from a line of text.
+    Expected format: cc|mm|yy|cvv or cc mm yy cvv (separators can be |, space, :, ;, ., -)
+    """
+    # Updated regex to handle various separators and 13-19 digit CC numbers
+    cc_regex = r"(\d{13,19})[\|\s:;.\-]?(\d{1,2})[\|\s:;.\-]?(\d{2,4})[\|\s:;.\-]?(\d{3,4})"
+    matches = re.findall(cc_regex, line)
+    extracted_ccs = []
+    for match in matches:
+        cc, mm, yy, cvv = match
+        # Basic validation
+        if 1 <= int(mm) <= 12 and 2 <= len(yy) <= 4 and 3 <= len(cvv) <= 4:
+            extracted_ccs.append(f"{cc}|{mm}|{yy}|{cvv}")
+    return extracted_ccs
+
+def generate_iban():
+    """Generates a random IBAN (International Bank Account Number)."""
+    faker = Faker()
+    return faker.iban()
+
+def generate_swift():
+    """Generates a random SWIFT/BIC code."""
+    faker = Faker()
+    return faker.swift()
+
+def generate_btc_address():
+    """Generates a random Bitcoin (BTC) address."""
+    faker = Faker()
+    return faker.btc_address()
+
+def generate_usdt_address():
+    """Generates a random USDT (Tether) TRC20 address (using Tron address as approximation)."""
+    faker = Faker()
+    return faker.tron_address()
+#--- END OF FILE utils.py ---
